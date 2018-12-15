@@ -75,7 +75,7 @@ $params = $parts;
 
 $controller = new $controller();
 if (!method_exists($controller, $method)) {
-    throw new Exception("404 NOT FOUND");
+    throw new Exception("404 NOT FOUND:)");
 }
 
 $controller->$method();
